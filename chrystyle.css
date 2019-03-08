@@ -1,0 +1,122 @@
+body{
+                        background-color: #333
+/*
+                        background-image: url("https://forpagedomains.000webhostapp.com/Midia/kellywallpaper.jpg");
+                        background-repeat: no-repeat;
+                        background-attachment: fixed       
+*/
+                };
+				#imagem {
+					width: 100px;
+					height 200px;
+				}
+
+				#texto {
+					position: absolute;
+					margin-top: -30px;
+				}
+	body {margin:0;}
+
+		.mytopmenu {
+				  overflow: hidden;
+  				  background-color: #333;
+				  position: fixed;
+				  top: 0;
+				  width: 100%;
+		}
+
+		.mytopmenu a {
+				 float: left;
+				  display: block;
+				  color: #f2f2f2;
+				  text-align: center;
+				  padding: 14px 16px;
+				  text-decoration: none;
+				  font-size: 17px;
+		}
+
+		.main {
+				  padding: 16px;
+				  margin-top: 30px;
+				  height: 1500px; /* Used in this example to enable scrolling */
+		}
+.writehere {
+    border: 1px solid black;
+    margin-top : 70px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: #808080;
+}
+.writeherecomments {
+    border: 1px solid black;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: #808080;
+}
+.writehereall {
+    border: 1px solid black;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: white;
+}
+
+
+.buttonAnimm {
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-align: left;
+  font-size: 28px;
+  padding: 20px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonAnimm span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonAnimm span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonAnimm:hover span {
+  padding-right: 25px;
+}
+
+.buttonAnimm:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
